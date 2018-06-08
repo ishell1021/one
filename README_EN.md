@@ -4,8 +4,7 @@ The web management system solution based on Vue2 and Element-UI。
 
 ## Installation steps ##
 
-	git clone https://github.com/lin-xin/vue-manage-system.git		// Clone templates
-	cd vue-manage-system											// Enter template directory
+	Enter template directory
 	npm install													// Installation dependency
 
 ## Local development ##
