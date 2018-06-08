@@ -1,0 +1,56 @@
+//公用样式
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+// body{
+	// font-family:$font-family-default;
+	// background:$bg-color;
+	// color:$color-text;
+// }
+input[type='number'] {
+	-webkit-appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+input{
+	-webkit-appearance: none;//去掉iphone input默认样式
+}
+input[type="search"] {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: initial;
+   font-weight: normal;
+}
+p{
+	margin-bottom:0;
+}
+pre {
+	white-space: pre-line;
+	font-family: inherit !important;
+	margin: 0;
+	padding:0;
+	border:none;
+	border-radius:$border-radius-default
+}
+
+ul{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+   padding: 0;
+}
+
+
+
+// #app {
+	// height: 100%;
+	// min-width:1440px;
+// }
+
